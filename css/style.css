@@ -122,3 +122,28 @@ footer li {
 .content3 {
   grid-area: content3;
 }
+.preloader img{
+  position: fixed;
+  height: 30%;
+  z-index: 100000;
+  background-color: transparent;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: spin 3s ease;
+  transition: all;
+  width: 30%;
+  margin: 0 auto;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  50%{
+    transform: rotate(360deg);
+  }
+  100%{
+    transform: rotate(720deg);
+  }
+}
