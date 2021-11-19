@@ -1,6 +1,6 @@
 
 body {
-  font-family: font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-family: 'Raleway', sans-serif;
   font-family: 'Red Hat Display', sans-serif;
   margin: 0;
@@ -101,13 +101,13 @@ footer li {
   margin: 0 auto;
   display: block;
 }
-.img1 {
+.k9 {
   grid-area: img1;
 }
-.img2 {
+.gov {
   grid-area: img2;
 }
-.img3 {
+.incentify {
   grid-area: img3;
 }
 .img1, .img2, .img3, .content1, .content2, .content3 {
@@ -122,11 +122,11 @@ footer li {
 .content3 {
   grid-area: content3;
 }
-.preloader img{
+.preloaderimg{
   position: fixed;
-  height: 30%;
+  height: 100%;
   z-index: 100000;
-  background-color: transparent;
+  background-color: black;
   top: 0;
   display: flex;
   align-items: center;
